@@ -32,14 +32,17 @@
     "electron-drag": "^1.2.0",
     "fs-jetpack": "^1.0.0",
     "lokijs": "^1.5.0",
+    "remote": "^0.2.6",
     "youtube-dl": "^1.11.1"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.5.2",
     "chai": "^4.0.1",
     "electron": "^1.6.11",
     "electron-builder": "^19.5.1",
     "electron-mocha": "^4.0.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
     "gulp-batch": "^1.0.5",
     "gulp-less": "^3.3.0",
     "gulp-plumber": "^1.1.0",

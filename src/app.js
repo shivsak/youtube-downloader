@@ -16,8 +16,6 @@ const appDir = jetpack.cwd(app.getAppPath());
 // Holy crap! This is browser window with HTML and stuff, but I can read
 // here files form disk like it's node.js! Welcome to Electron world :)
 const manifest = appDir.read('package.json', 'json');
-let citrusDataString = appDir.read('json/data.json', 'json');
-var citrus
 
 const osMap = {
   win32: 'Windows',
@@ -25,4 +23,4 @@ const osMap = {
   linux: 'Linux',
 };
 
-document.querySelector('#greet').innerHTML = greet();
+document.getElementById('#container').style = "padding: 10px";
