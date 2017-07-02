@@ -3,10 +3,12 @@
  */
 
 var renderer = {
-    downloadStarted: function (info) {
-        console.log('rendering download started info');
-        console.log(info);
-    }
+    textAlert: function (message) {
+        document.getElementById('textNotification').innerHTML += message.body + '<br />';
+    },
+    hideTextAlert: function () {
+        document.getElementById('textNotification').innerHTML = "";
+    },
 }
 
 module.exports = renderer;

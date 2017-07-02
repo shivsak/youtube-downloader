@@ -17,17 +17,22 @@
   <div class="container padded-container" id="container">
     <h1 class="title is-4 left-align pageTitle">youtube downloader</h1>
     <h2 class="subtitle is-6 left-align pageSubtitle">enter your url and click download</h2>
-    <div class="inputContainer">
-      <div class="field has-addons">
-        <p class="control">
-          <input type="text" class="input" placeholder="Enter url here.." />
+    <div class="inputContainer fw">
+      <div class="field has-addons fw">
+        <p class="control fw">
+          <input type="text" class="input linkInput" placeholder="Enter url here.." id="linkInput" value="https://www.youtube.com/watch?v=_FInpIEh75A" />
         </p>
         <p class="control">
           <a href="#" id="downloadButton" class="button is-warning">Download</a>
         </p>
       </div>
     </div>
+    <br /><br />
+    <p class="textNotification" id="textNotification"></p>
   </div>
+  <p class="footerText">
+    <a href="http://shivsakhuja.com" class="footerLink">about</a>
+  </p>
 
   <script src="app.js"></script>
 </body>
