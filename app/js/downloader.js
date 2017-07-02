@@ -57,7 +57,7 @@ var downloader = {
                     }
 
                     renderer.textAlert({
-                        body: `The file is ${info.size / 1000} KB. I'll tell you when I'm done!`
+                        body: `The file is ${Math.floor(info.size / 100000) / 10} MB. I'll tell you when I'm done!`
                     })
 
                 });
